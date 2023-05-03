@@ -91,7 +91,7 @@ light.position.set(1,1,5);
 scene.add(light);
 
 //sfera con archimede
-const archimedeText = new THREE.TextureLoader().load('/archimede_bh.jpg');
+const archimedeText = new THREE.TextureLoader().load('./archimede_bh.jpg');
 
 const archimede = new THREE.Mesh(
   new THREE.SphereGeometry(2, 32, 32),
