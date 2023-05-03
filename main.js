@@ -50,6 +50,7 @@ loader.load('/redpi/redpi.gltf', function(gltf){
   scene.add(redpi);
 }, function (error){
   console.log("An error has occurred")
+  console.log(error);
 });
 
 
