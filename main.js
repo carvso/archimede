@@ -36,7 +36,7 @@ camera.position.setZ(150); //posizione camera iniz
 // Pi greco 3d model
 const loader = new GLTFLoader();
 
-loader.load('assetsone/redpi.gltf', function(gltf){
+loader.load('/redpi/redpi.gltf', function(gltf){
   console.log(gltf);
   redpi = gltf.scene;
   //redpi.scale.set(5,5,5);
@@ -55,7 +55,7 @@ loader.load('assetsone/redpi.gltf', function(gltf){
 
 
 //vite idraulica 
-loader.load('screw/screw_model.gltf', function(gltf){
+loader.load('/screw/screw_model.gltf', function(gltf){
   console.log(gltf);
   screw = gltf.scene;
   screw.scale.set(5,5,5);
