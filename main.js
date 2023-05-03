@@ -1,8 +1,8 @@
 import './style.css';
 
-import * as THREE from '/three';
-import { OrbitControls } from '/three/examples/jsm/controls/OrbitControls';
-import {GLTFLoader} from '/three/examples/jsm/loaders/GLTFLoader';
+import * as THREE from 'https://threejs.org/build/three.module.js';
+//import { OrbitControls } from '/three/examples/jsm/controls/OrbitControls';
+import {GLTFLoader} from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';
 
 
 var redpi, screw, tomb;
