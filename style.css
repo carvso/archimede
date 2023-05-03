@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Yatra+One&display=swap');
 
 canvas {
   position: fixed;
@@ -12,7 +11,7 @@ canvas {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
 
-  font-family: 'Rubik Pixels', cursive;
+  font-family: 'Yatra One', cursive;
   font-weight: 400;
   font-style: normal;
   
@@ -54,7 +53,7 @@ main {
 }
 
 h1, h2, h3, blockquote {
-  font-family: 'Rubik Pixels', cursive;
+  font-family: 'Macondo', cursive;
   font-weight: 400;
   font-style: normal;
 }
