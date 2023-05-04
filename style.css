@@ -5,16 +5,13 @@ canvas {
   top: 0;
   left: 0;
 }
-
-
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
   --spacing: 350px;
 
   font-family: 'Yatra One', cursive;
   font-weight: 400;
-  font-style: normal;
-  
+  font-style: normal; 
 }
 .laterale{
   margin-left: 19vw;
@@ -51,34 +48,29 @@ main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-
 h1, h2, h3, blockquote {
   font-family: 'Macondo', cursive;
   font-weight: 400;
   font-style: normal;
 }
-
 canvas {
   position: fixed;
   top: 0;
   left: 0;
 }
-
-
 .pi{
   font-size: 5rem;
 }
 .pi-defin{
   color: #E5BEEC;
 }
-  header {
+header {
     background: var(--dark-bg);
     grid-column: 2 / span 6;
     font-size: 2.5rem;
     padding: 2rem;
     margin-bottom: var(--spacing);
-  }
-
+}
 section {
     grid-column: 2 / 8;
     padding: 1rem;
@@ -87,13 +79,21 @@ section {
     line-height: 1.5;
     margin-bottom: var(--spacing);
 }
-
-  blockquote {
+section img{
+  height: 75vh;
+  width: 40vw;
+  position: relative;
+  top: 5vh;
+  left: 5vh;
+  bottom: 5vh;
+  right: 5vh;
+}
+blockquote {
     margin: 0;
     padding: 0;
     grid-column: 2 / span 9;
     margin-bottom: var(--spacing);
-  }
+}
 .firma{
   margin-bottom: 0px;
 }
@@ -101,14 +101,14 @@ section {
   margin-left: 65vw;
 }
 
-  blockquote p {
+blockquote p {
     color: black;
     background-color: white;
     font-size: 4rem;
     display: inline;
     line-height: 1;
-  }
+}
 
-  .left {
+.left {
     grid-column: 6 / 12;
-  }
+}
