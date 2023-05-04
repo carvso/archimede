@@ -75,7 +75,7 @@ loader.load('tomb/tomb_model.gltf', function(gltf){
   tomb.scale.set(0.5,0.5,0.5);
 
   tomb.position.z = 3;
-  tomb.position.x = -40;
+  tomb.position.x = -10;
   tomb.position.y = -20;
 
   scene.add(tomb);
